@@ -12,6 +12,8 @@
 # pallindrome("CURSOR")
 
 
+# LIST
+
 # Q1. Print positive and negative elements of an List.
 
 # l = [1,-3,5,2,-9,70,-56]
@@ -72,3 +74,16 @@
 #         sec_largest = i
 
 # print(sec_largest, largest)
+
+
+
+
+# Q1. Write a python Script to merge two python dictionaries
+
+# d1 = {10:100,20:200,30:300,40:400}
+# d2 = {40:400, 50:500, 60:600,}
+
+# for i in d2:
+#     d1[i] = d2[i]
+
+# print(d1)
