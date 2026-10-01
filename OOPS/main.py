@@ -38,15 +38,54 @@
 
 ### INHERITANCE
 
-class FactoryMumbai: # Parent Class
-    a = "I am an attribute mentioned inside a Factory Mumbai"
-    def hello(self):
-        print("Hello i am method mentioned inside Factory Mumbai")
+# class FactoryMumbai: # Parent Class
+#     a = "I am an attribute mentioned inside a Factory Mumbai"
+#     def hello(self):
+#         print("Hello i am method mentioned inside Factory Mumbai")
 
-class FactoryPune(FactoryMumbai): # Child Class
-    pass
+# class FactoryPune(FactoryMumbai): # Child Class
+#     pass
 
-obj = FactoryMumbai()
-obj2 = FactoryPune()
+# obj = FactoryMumbai()
+# obj2 = FactoryPune()
 
-print(obj2.a)
+# print(obj2.a)
+
+
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def show(self):
+#         print(f"Hello your name is {self.name}")
+
+
+# class Human(Animal):
+#     def __init__(self, name, age):
+#         super().__init__(name)  
+#         self.age = age
+
+#     def show(self):
+#         print(f"Hello your name is {self.name}, {self.age}")
+
+
+# animal1 = Animal("lion")
+# person1 = Human("Nabeel", 20)
+
+# animal1.show()
+
+
+
+# class Animal:
+#     def __init__(self, name):
+#         pass
+
+# class Human:
+#     def __init__(self, name, age):
+#         pass
+
+# class Robots(Animal,Human):
+#     name3 = "Charlie123"
+
+# obj = Robots()
+
